@@ -12,12 +12,13 @@ def bulk_translate_to_dataframe(texts, languages):
     translate_client = translate.Client.from_service_account_json('./gcp-credentials.json')
     
     # Initialize a dictionary to store the data for the DataFrame
-    translation_data = {'English': texts}
+    translation_data = {'en': texts}
     
     # Translate each sentence into each language
     for language in languages:
         translated_texts = []
         for text in texts:
+            print("TRANSLATING", text, "TO", language)
             translated_text = translate_text(text, language, translate_client)
             translated_texts.append(translated_text)
         print("FINISHED LANGUAGE", language)
@@ -29,10 +30,10 @@ def bulk_translate_to_dataframe(texts, languages):
 
 # Array of English sentences to translate
 # Populate texts with all the sentences in sentences.txt
-texts = []
-with open('sentences.txt', 'r') as file:
-    for line in file:
-        texts.append(line.strip())
+
+# Load the CSV file into a DataFrame
+df = pd.read_csv("sentences.csv")
+all_sentences = df['Sentence'].tolist()
 
 # List of language codes for each target language
 languages = [
@@ -44,7 +45,7 @@ languages = [
 ]
 
 # Perform the translations and get a DataFrame
-translation_df = bulk_translate_to_dataframe(texts, languages)
+translation_df = bulk_translate_to_dataframe(all_sentences, languages)
 
 # Display the DataFrame
 translation_df.to_csv('translations.csv', index=False)

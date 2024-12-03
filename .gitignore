@@ -1,2 +1,2 @@
-embeddings*.json
+*embeddings*.json
 gcp-credentials.json
