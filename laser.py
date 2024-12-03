@@ -13,8 +13,12 @@ sentences = [
     "यह हिंदी में एक वाक्य है।"
 ]
 
+language_codes = [
+    "en", "fr", "zh", "de", "hi"
+]
+
 # Generate sentence embeddings
-embeddings = laser.embed_sentences(sentences, lang='en')  # 'en' here is the fallback language
+embeddings = laser.embed_sentences(sentences=sentences, lang=language_codes)
 
 # Print the embeddings
 for i, emb in enumerate(embeddings):
