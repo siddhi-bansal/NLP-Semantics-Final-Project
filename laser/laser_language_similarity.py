@@ -13,7 +13,7 @@ translations["sentence"] = translations["en"]
 translations.drop(columns=['ja'], inplace=True)
 translations.set_index('sentence', inplace=True)
 
-with open('laser_embeddings.json', 'r') as file:
+with open('laser/laser_embeddings_without_stopwords.json', 'r') as file:
     # Load the JSON data into a dictionary
     embeddings = json.load(file)
 
@@ -25,74 +25,15 @@ languages = [
     'tr', 'uk', 'ur', 'uz', 'vi'
 ]
 
-language_mappings = {
-    'en': 'English',
-    'af': 'Afrikaans',
-    'am': 'Amharic',
-    'ar': 'Arabic',
-    'be': 'Belarusian',
-    'bn': 'Bengali',
-    'bg': 'Bulgarian',
-    'my': 'Burmese',
-    'ca': 'Catalan',
-    'km': 'Khmer',
-    'zh': 'Chinese',
-    'hr': 'Croatian',
-    'cs': 'Czech',
-    'da': 'Danish',
-    'nl': 'Dutch',
-    'et': 'Estonian',
-    'fi': 'Finnish',
-    'fr': 'French',
-    'ka': 'Georgian',
-    'de': 'German',
-    'el': 'Greek',
-    'ha': 'Hausa',
-    'he': 'Hebrew',
-    'hi': 'Hindi',
-    'hu': 'Hungarian',
-    'is': 'Icelandic',
-    'id': 'Indonesian',
-    'ga': 'Irish',
-    'it': 'Italian',
-    'kk': 'Kazakh',
-    'ko': 'Korean',
-    'ku': 'Kurdish',
-    'lv': 'Latvian',
-    'la': 'Latin',
-    'lt': 'Lithuanian',
-    'mk': 'Macedonian',
-    'mg': 'Malagasy',
-    'ms': 'Malay',
-    'ml': 'Malayalam',
-    'mr': 'Marathi',
-    'no': 'Norwegian',
-    'fa': 'Persian',
-    'pl': 'Polish',
-    'pt': 'Portuguese',
-    'ro': 'Romanian',
-    'ru': 'Russian',
-    'sr': 'Serbian',
-    'sd': 'Sindhi',
-    'si': 'Sinhala',
-    'es': 'Spanish',
-    'sw': 'Swahili',
-    'sv': 'Swedish',
-    'ta': 'Tamil',
-    'te': 'Telugu',
-    'th': 'Thai',
-    'tr': 'Turkish',
-    'uk': 'Ukrainian',
-    'ur': 'Urdu',
-    'uz': 'Uzbek',
-    'vi': 'Vietnamese'
-}
+language_mappings = {'en': 'English','af': 'Afrikaans','am': 'Amharic','ar': 'Arabic','be': 'Belarusian','bn': 'Bengali','bg': 'Bulgarian','my': 'Burmese','ca': 'Catalan','km': 'Khmer','zh': 'Chinese','hr': 'Croatian','cs': 'Czech','da': 'Danish','nl': 'Dutch','et': 'Estonian','fi': 'Finnish','fr': 'French','ka': 'Georgian','de': 'German','el': 'Greek','ha': 'Hausa','he': 'Hebrew','hi': 'Hindi','hu': 'Hungarian','is': 'Icelandic','id': 'Indonesian','ga': 'Irish','it': 'Italian','kk': 'Kazakh','ko': 'Korean','ku': 'Kurdish','lv': 'Latvian','la': 'Latin','lt': 'Lithuanian','mk': 'Macedonian','mg': 'Malagasy','ms': 'Malay','ml': 'Malayalam','mr': 'Marathi','no': 'Norwegian','fa': 'Persian','pl': 'Polish','pt': 'Portuguese','ro': 'Romanian','ru': 'Russian','sr': 'Serbian','sd': 'Sindhi','si': 'Sinhala','es': 'Spanish','sw': 'Swahili','sv': 'Swedish','ta': 'Tamil','te': 'Telugu','th': 'Thai','tr': 'Turkish','uk': 'Ukrainian','ur': 'Urdu','uz': 'Uzbek','vi': 'Vietnamese'}
+
+languages_for_stopwords = ['en', 'he', 'te', 'fa', 'el', 'hi', 'ru', 'ro', 'no', 'fr', 'fi', 'zh', 'de', 'nl', 'pt', 'hr', 'ga', 'si', 'sv', 'ur', 'hu', 'da', 'it', 'ta', 'ca', 'tr', 'ar', 'id', 'bn', 'vi', 'th', 'kk', 'pl', 'es', 'uk']
 
 language_similarities = {}
 sentences = translations['en'].tolist()
-for l1 in languages:
+for l1 in languages_for_stopwords:
     l1_similarities = {}
-    for l2 in languages:
+    for l2 in languages_for_stopwords:
         avg_cos_sim = 0
         for sentence in sentences:
             sentence_l1 = translations.loc[sentence, l1]
@@ -118,4 +59,4 @@ language_similarities_df.columns = language_similarities_df.columns.map(language
 
 language_similarities_df.index.set_names('Language', inplace=True)
 
-language_similarities_df.to_csv("laser_language_similarities.csv")
+language_similarities_df.to_csv("laser/laser_without_stopwords_language_similarities.csv")

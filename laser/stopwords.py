@@ -10,6 +10,7 @@ stopwords = {}
 for lang_code in stopword_lang_code_to_language.keys():
     stopwords[lang_code] = list(adv.stopwords[stopword_lang_code_to_language[lang_code]])
 
+print(stopwords.keys())
 # stopwords has values that are not in unicode, so we can't store as string, but want to store dictionary in json. do that.
 # Store the stopwords in a JSON file, ensuring non-ASCII characters are handled correctly
 with open('stopwords.csv', mode='w', newline='', encoding='utf-8') as file:

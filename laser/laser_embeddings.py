@@ -9,7 +9,7 @@ laser = Laser()
 def get_language_stopwords():
     language_stopwords = {}
 
-    with open('stopwords.csv', mode='r', encoding='utf-8') as file:
+    with open('laser/stopwords.csv', mode='r', encoding='utf-8') as file:
         reader = csv.reader(file)
         
         # Skip the header row
@@ -27,7 +27,7 @@ def get_embeddings(texts, code):
     return embeddings
 
 # read translations.csv into a dataframe
-translations = pd.read_csv('../translations.csv')
+translations = pd.read_csv('translations.csv')
 language_stopwords = get_language_stopwords()
 
 # add a column called "sentence" to the dataframe that stores the 'en' column
@@ -41,8 +41,7 @@ translations.set_index('sentence', inplace=True)
 # key is sentence in language, value is embedding
 embeddings = {}
 
-# COMMENT LINE BELOW FOR WITH STOPWORDS
-# translations.drop(columns=['ja'], inplace=True)
+translations.drop(columns=['ja'], inplace=True)
 
 # get embeddings for each column other than 'sentence' column, and replace the sentence with the get_embeddings() value
 for lang_code in translations.columns:
@@ -61,5 +60,5 @@ for lang_code in translations.columns:
 json_string = json.dumps(embeddings)
 
 # Save JSON string to a file
-with open("laser_embeddings_without_stopwords.json", "w") as f:
+with open("laser/laser_embeddings_without_stopwords.json", "w") as f:
     f.write(json_string)

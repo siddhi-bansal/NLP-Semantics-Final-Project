@@ -5,6 +5,23 @@ import math
 import json
 import numpy as np
 import matplotlib.pyplot as plt
+import csv
+
+def get_language_stopwords():
+    language_stopwords = {}
+
+    with open('laser/stopwords.csv', mode='r', encoding='utf-8') as file:
+        reader = csv.reader(file)
+        
+        # Skip the header row
+        next(reader)
+        
+        # Read each row and populate the dictionary
+        for row in reader:
+            lang_code = row[0]
+            stopword_list = row[1].split(', ')  # Split the comma-separated stopwords back into a list
+            language_stopwords[lang_code] = stopword_list
+    return language_stopwords
 
 def create_boxplots(simple_cosines, compound_cosines, complex_cosines):
     data = [simple_cosines, compound_cosines, complex_cosines]
@@ -18,7 +35,7 @@ def create_boxplots(simple_cosines, compound_cosines, complex_cosines):
     plt.grid(axis='y', linestyle='--', alpha=0.7)
 
     # Save the plot as a PNG file
-    plt.savefig("laser_sentence_types_boxplot.png", format="png")
+    plt.savefig("laser/laser_sentence_without_stopwords_types_boxplot.png", format="png")
 
 # Load the CSV files into a DataFrame
 sentence_types = pd.read_csv("sentences.csv")
@@ -28,7 +45,7 @@ translations["sentence"] = translations["en"]
 translations.drop(columns=['ja'], inplace=True)
 translations.set_index('sentence', inplace=True)
 
-with open('laser_embeddings.json', 'r') as file:
+with open('laser/laser_embeddings_without_stopwords.json', 'r') as file:
     # Load the JSON data into a dictionary
     embeddings = json.load(file)
 
@@ -40,11 +57,14 @@ languages = [
     'tr', 'uk', 'ur', 'uz', 'vi'
 ]
 
+languages_for_stopwords = get_language_stopwords().keys()
+
 # Extract sentences into lists based on their type
 simple_sentences = sentence_types[sentence_types['Type'] == 'Simple']['Sentence'].tolist()
 complex_sentences = sentence_types[sentence_types['Type'] == 'Complex']['Sentence'].tolist()
 compound_sentences = sentence_types[sentence_types['Type'] == 'Compound']['Sentence'].tolist()
-pairwise_combinations = list(combinations(languages, 2))
+# STOPWORDS: replace languages_for_stopwords with languages if you want to run for sentences with stopwords (original sentences)
+pairwise_combinations = list(combinations(languages_for_stopwords, 2))
 
 simple_cosine_avg = 0
 simple_sentence_cosine_avgs = []
