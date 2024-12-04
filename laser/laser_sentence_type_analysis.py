@@ -18,7 +18,7 @@ def create_boxplots(simple_cosines, compound_cosines, complex_cosines):
     plt.grid(axis='y', linestyle='--', alpha=0.7)
 
     # Save the plot as a PNG file
-    plt.savefig("sentence_types_boxplot.png", format="png")
+    plt.savefig("laser_sentence_types_boxplot.png", format="png")
 
 # Load the CSV files into a DataFrame
 sentence_types = pd.read_csv("sentences.csv")
@@ -104,6 +104,6 @@ for sentence in complex_sentences:
 complex_cosine_avg /= len(simple_sentences)
 
 create_boxplots(simple_sentence_cosine_avgs, compound_sentence_cosine_avgs, complex_sentence_cosine_avgs)
-print("Cross-lingual similarity of simple sentences", simple_cosine_avg)
-print("Cross-lingual similarity of compound sentences", compound_cosine_avg)
-print("Cross-lingual similarity of complex sentences", complex_cosine_avg)
+print("Cross-lingual similarity of simple sentences for Laser Embeddings", simple_cosine_avg)
+print("Cross-lingual similarity of compound sentences for Laser embeddings", compound_cosine_avg)
+print("Cross-lingual similarity of complex sentences for Laser Embeddings", complex_cosine_avg)

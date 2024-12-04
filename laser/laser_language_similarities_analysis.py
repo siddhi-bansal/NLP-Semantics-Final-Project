@@ -33,7 +33,7 @@ languages = [
     'English', 'Afrikaans', 'Amharic', 'Arabic', 'Belarusian', 'Bengali', 'Bulgarian', 'Burmese', 'Catalan', 'Khmer', 'Chinese', 'Croatian', 'Czech', 'Danish', 'Dutch', 'Estonian', 'Finnish', 'French', 'Georgian', 'German', 'Greek', 'Hausa', 'Hebrew', 'Hindi', 'Hungarian', 'Icelandic', 'Indonesian', 'Irish', 'Italian', 'Kazakh', 'Korean', 'Kurdish', 'Latvian', 'Latin', 'Lithuanian', 'Macedonian', 'Malagasy', 'Malay', 'Malayalam', 'Marathi', 'Norwegian', 'Persian', 'Polish', 'Portuguese', 'Romanian', 'Russian', 'Serbian', 'Sindhi', 'Sinhala', 'Spanish', 'Swahili', 'Swedish', 'Tamil', 'Telugu', 'Thai', 'Turkish', 'Ukrainian', 'Urdu', 'Uzbek', 'Vietnamese'
 ]
 
-language_similarities = pd.read_csv("language_similarities.csv")
+language_similarities = pd.read_csv("laser_language_similarities.csv")
 language_similarities.set_index('Language', inplace=True)
 
 sorted_language_similarities = language_similarities.copy()
