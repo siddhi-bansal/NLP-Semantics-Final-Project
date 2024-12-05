@@ -1,0 +1,301 @@
+sentence,language,rarity
+The cat stretched.,en,False
+Jacob stood on his tiptoes.,en,True
+The car turned the corner.,en,False
+Kelly twirled in circles.,en,True
+She opened the door.,en,False
+Aaron made a picture.,en,False
+I'm sorry.,en,False
+I danced.,en,True
+Run!,en,False
+Open the jar carefully.,en,False
+Read the directions.,en,False
+Don't cry.,en,False
+Use common sense.,en,False
+Make the best of things.,en,False
+Catch up!,en,False
+Sarah and Ira drove to the store.,en,True
+Jenny and I opened all the gifts.,en,False
+The cat and dog ate.,en,False
+My parents and I went to a movie.,en,False
+Mrs. Juarez and Mr. Smith are dancing gracefully.,en,True
+"Samantha, Elizabeth, and Joan are on the committee.",en,True
+"The ham, green beans, mashed potatoes, and corn are gluten-free.",en,True
+The paper and pencil sat idle on the desk.,en,True
+Misha walked and looked around.,en,True
+My mother hemmed and hawed over where to go for dinner.,en,True
+He was eating and talking.,en,False
+I rinsed and dried the dishes.,en,True
+Joe stood up and spoke to the crowd.,en,False
+"The mangy, scrawny stray dog hurriedly gobbled down the grain-free, organic dog food.",en,True
+"I quickly put on my red winter jacket, black snow pants, waterproof boots, homemade mittens, and handknit scarf.",en,True
+The incessant ticking and chiming echoed off the weathered walls of the clock repair shop.,en,True
+"Nervously, I unfolded the wrinkled and stained letter from my long-dead ancestor.",en,True
+"Into the suitcase, I carelessly threw a pair of ripped jeans, my favorite sweater from high school, an old pair of tube socks with stripes, and $20,000 in cash.",en,True
+I‘m happy.,en,False
+She exercises every morning.,en,False
+His dog barks loudly.,en,True
+My school starts at 8:00.,en,False
+We always eat dinner together.,en,False
+They take the bus to work.,en,False
+He doesn’t like vegetables.,en,False
+I don’t want anything to drink.,en,False
+This little black dress isn’t expensive.,en,False
+Those kids don’t speak English.,en,False
+I went to the store.,en,False
+She took the test last Friday.,en,False
+We talked for hours.,en,False
+The little girl played at the playground.,en,True
+He had a great time yesterday.,en,False
+I didn’t know about the meeting.,en,False
+He didn’t take a shower.,en,False
+My friend and I didn’t buy anything on our trip.,en,False
+We didn’t have enough food for everyone.,en,False
+Rachel didn’t tell anyone the secret.,en,False
+I will visit my parents next weekend.,en,False
+She‘ll finish her project by tomorrow.,en,False
+They will go on vacation next month.,en,False
+We‘ll have dinner at a fancy restaurant tonight.,en,False
+He will start his new job next week.,en,False
+I won’t attend the party tomorrow.,en,False
+She won’t buy a new car this year.,en,False
+They will not complete the assignment on time.,en,False
+We won’t go to the concert on Saturday.,en,False
+He will not pass the exam without studying.,en,False
+I am currently working on a new project.,en,False
+She is dancing gracefully on stage.,en,True
+They are enjoying their vacation in Hawaii.,en,False
+We are learning to play the guitar.,en,False
+He is studying for his upcoming exams.,en,False
+I‘m not feeling well today.,en,False
+She isn’t attending the party tonight.,en,False
+They‘re not participating in the competition.,en,False
+We aren’t going out for dinner this evening.,en,False
+He‘s not wearing a jacket despite the cold weather.,en,False
+I was watching a movie last night.,en,False
+She was singing loudly during the concert.,en,True
+They were playing soccer yesterday.,en,False
+We were having dinner at a fancy restaurant.,en,False
+He was studying hard for his final exams.,en,False
+I wasn’t paying attention to the lecture.,en,False
+She was not watching her kids at the park.,en,False
+They were not listening to the teacher’s instructions.,en,True
+We weren’t traveling over spring break.,en,False
+He was not feeling well yesterday.,en,False
+I‘ll be giving a presentation at the conference.,en,False
+She will be traveling to Europe next month.,en,False
+They‘ll be celebrating their anniversary on a cruise.,en,False
+We will be taking our son to college in September.,en,False
+He‘ll be working on a new project next week.,en,False
+I will not be attending the party tonight.,en,False
+She will not be participating in the competition.,en,False
+They won’t be going on a vacation this summer.,en,False
+We won’t be looking for new jobs anytime soon.,en,False
+He won’t be taking so many classes next semester.,en,False
+I‘ve finished reading the book.,en,False
+She has traveled to many countries.,en,False
+They‘ve won the championship.,en,False
+We have completed the project on time.,en,False
+He‘s learned to play the piano.,en,False
+I haven’t visited that museum yet.,en,False
+She has not received the package.,en,False
+"I like to read, and my sister enjoys painting.",en,False
+"He plays soccer, but she prefers swimming.",en,True
+"They study hard, so they get good grades.",en,False
+"We work during the day, and we relax in the evening.",en,False
+"She loves her job, yet she complains about it a lot.",en,True
+"He cooks a lot, and he often tries new recipes.",en,True
+"They travel to different countries, but they always come back home.",en,False
+"We either watch movies on Fridays, or we go out for dinner.",en,True
+"She exercises regularly, so she stays fit and healthy.",en,False
+"He volunteers at the local shelter, and he also donates to charity.",en,True
+"I visited my grandparents last weekend, and we had a wonderful time together.",en,False
+"He played basketball in high school, but he decided to focus on academics in college.",en,True
+"They went to the beach yesterday, but it rained unexpectedly.",en,True
+"We studied for the exam, yet we still struggled with some of the questions.",en,False
+"She cooked a delicious meal for her friends, and they all enjoyed it.",en,False
+"He worked as a teacher for several years, and then he pursued a career in writing.",en,False
+"They traveled to Europe during the summer holidays, and they visited many famous landmarks.",en,True
+"We watched a movie last night, but we didn't like it.",en,False
+"She danced ballet when she was younger, but she stopped after a knee injury.",en,True
+"He met his favorite author at a book signing event, and he got his book autographed.",en,True
+"I am studying for my exam, and my friend is working on a project.",en,False
+"She is dancing in the ballet recital, and her brother is playing the piano.",en,True
+"They are traveling to Europe this summer, but they aren't taking their kids.",en,False
+"We are having dinner at a restaurant tonight, so we are dressing up.",en,False
+"He is working on a new painting, and he is experimenting with different techniques.",en,True
+"She isn't planning to buy a house, yet she is always browsing real estate listings.",en,True
+"My parents are attending a conference, and I am taking care of their dogs.",en,False
+We aren't enjoying the trip because we're worrying about safety all the time.,en,False
+"She is taking swimming lessons, and she is improving her technique.",en,False
+"He is studying English on his own, so he isn't taking any formal classes.",en,False
+"I have studied for my exam, and I feel confident about it.",en,False
+"She has traveled to many countries, so she has experienced diverse cultures.",en,False
+"They have finished their project, but they still need to present it.",en,False
+"We have watched the movie, and we have discussed it extensively.",en,True
+"He has learned to play the guitar, and he will perform his favorite songs at the talent show.",en,False
+"She has completed her master's degree, and she is now pursuing a Ph.D.",en,True
+"They have visited the museum, but they have not explored the entire collection yet.",en,False
+"We have tried the new restaurant in town, and the food was delicious.",en,False
+"She has written a book, and she has received positive reviews from readers.",en,False
+"He has achieved his fitness goals, and he continues to maintain a healthy lifestyle.",en,False
+"I finished my work early, so now I can relax for the rest of the evening.",en,False
+"She sings beautifully, yet she has never performed for an audience.",en,False
+"They were buying groceries for the week, but they had forgotten to bring their shopping list.",en,True
+"We have been studying history, and we will visit a museum tomorrow.",en,False
+"He played the guitar for years, but he is now focusing on learning the piano.",en,False
+"She will be giving a talk next month, so she has been practicing a lot.",en,False
+"They enjoyed the concert last night, and they will be posting photos later.",en,False
+"I had watched that movie before, so we picked a different one to watch together.",en,False
+"She is working at a bar, but her parents disapprove.",en,True
+"He had been considering buying a motorcycle, but he couldn't afford it.",en,False
+"She did not cheat on the test, for it was the wrong thing to do.",en,False
+"I really need to go to work, but I am too sick to drive.",en,False
+"I am counting my calories, yet I really want dessert.",en,True
+"He ran out of money, so he had to stop playing poker.",en,False
+"They got there early, and they got really good seats.",en,False
+"They had no ice cream left at home, nor did they have money to go to the store.",en,False
+"Everyone was busy, so I went to the movie alone.",en,False
+"I thought the promotion was mine, but my attendance wasn't good enough.",en,False
+"Should we start class now, or wait for everyone to get here?",en,False
+"It was getting dark, and we weren't near the cabin yet.",en,False
+"Cats are good pets, for they are clean and are not noisy.",en,True
+"We have never been to Asia, nor have we visited Africa.",en,False
+"He didn't want to go to the dentist, yet he went anyway.",en,True
+The sky is clear; the stars are twinkling.,en,True
+Joe made the sugar cookies; Susan decorated them.,en,False
+The waves were crashing on the shore; it was a lovely sight.,en,True
+Check back tomorrow; I will see if the book has arrived.,en,False
+I am happy to take your donation; any amount will be greatly appreciated.,en,False
+Malls are great places to shop; I can find everything I need under one roof.,en,True
+Italy is my favorite country; I plan to spend two weeks there next year.,en,False
+He turned in the research paper on Friday; he would have not passed the class otherwise.,en,False
+She bought a cheeseburger for her friend; she forgot the fries.,en,True
+He loved the dog; he gave it many treats.,en,False
+"It was a difficult assignment; however, Kelly was up to the challenge.",en,False
+"There were white-out conditions in the town; therefore, the roads were impassable.",en,True
+"He said he was not there yesterday; however, many people saw him there.",en,False
+"She only paints with bold colors; indeed, she does not like pastels at all.",en,True
+"She works two jobs to make ends meet; at least, that was her reason for not having time to join us.",en,False
+"You need to pack the appropriate things for camping; for example, a sleeping bag will keep you warm.",en,False
+"I have paid my dues; as a result, I expect to receive all the privileges listed in the bylaws.",en,True
+"He ate seven sandwiches for lunch; afterward, he felt ill.",en,True
+"Her knees ached from jogging; moreover, her shoes were starting to wear out.",en,True
+"His friends canceled dinner plans that night; on the other hand, he didn’t really want to go in the first place.",en,False
+"I like doing the Christmas tree, and I would love for you to join.",en,False
+"Are you coming with me, or are you going to the auditorium?",en,True
+"He was not well, yet he decided to go to work.",en,False
+"I am ready to go, but my brother has not reached home yet.",en,False
+"Jerry did not complete his homework, so the teacher punished him.",en,False
+"My brother should drop me, or I cannot make it to the reception.",en,False
+The dress is too tight; I don't think I am going to buy this.,en,False
+He likes Marvel movies; he would probably watch all of it at one stretch.,en,False
+Try to focus on your studies; everyone else is working really hard and improving their grades.,en,False
+"It was not easy to do it; however, Ashwin managed to complete it.",en,True
+"We have to complete it; otherwise, we will have to face the consequences.",en,False
+"The cleaning work was being done by all the kids; meanwhile, we found a way to sort out their cupboards.",en,True
+"All the employers have been requesting for a change in working hours for many months now; however, the company has not made any changes yet.",en,True
+"My parents want me to become an IAS officer, but I want to become a teacher.",en,True
+"My mom was too tired, yet she cleaned the house.",en,False
+"My father is back home; however, we don't know when he will leave again.",en,False
+Study well or you will not pass.,en,False
+"Although he works long hours, he always finds time to spend with his family.",en,False
+She always wears jewelry that matches her outfit.,en,False
+"While my brother enjoys spicy food, I prefer milder flavors.",en,True
+"Several crops grow here, even though it rarely rains in this region.",en,True
+"Though he is talented, he often underestimates his own abilities.",en,True
+"Although the company faces tough competition, it continues to thrive in the market.",en,True
+"I think you’d like this book, since you love historical fiction.",en,False
+He always studies a lot before he takes a test.,en,False
+"I sometimes walk to work, as long as the weather is good.",en,False
+"My mother stays up late, whereas my father goes to bed earl",en,False
+"After she finished her studies, she traveled around Europe for six months.",en,False
+"Although they were tired, they stayed up late to finish their project.",en,False
+He immediately called for help when he saw the accident.,en,False
+My kids often misbehaved whenever they had a babysitter.,en,True
+"Since he sold his car, he had to take the bus to work.",en,False
+"She didn’t ride the roller coasters, even though she was old enough to do so.",en,True
+"When they arrived at the restaurant, they realized it had already closed.",en,False
+I stayed awake until my husband got home from work.,en,False
+"Before he left his job, he wrote a number of training manuals.",en,True
+"She performed very well on stage, though she was quite nervous.",en,False
+"After I finish my degree, I will pursue a career in environmental conservation.",en,False
+"She will visit her grandparents next weekend, as she hasn’t seen them in months.",en,False
+"Once the project is complete, the company will launch its new product on the market.",en,False
+"By the time I graduate, I will have traveled to at least five different countries.",en,False
+We’re going to clean the bathrooms after we’re done cleaning the kitchen.,en,True
+They will be driving to Florida since flights are too expensive.,en,False
+"Electric cars will become more popular in a few years, even though they’re not very common now.",en,False
+I’m going to start preparing dinner before I leave for work.,en,False
+"Once the renovations are finished, the house will be even more beautiful.",en,True
+I won’t lend you any more money until you pay me back.,en,False
+"While I was studying for my exam, my friends were watching a movie.",en,False
+They will be traveling to Europe while we are attending the conference.,en,False
+"As the sun was setting, the children were playing in the park.",en,False
+I was cleaning the house all evening after I saw how dirty it was.,en,False
+I’ll be waiting for you at the café until you finish your meeting.,en,True
+"When I finish my work, I will join you for dinner.",en,False
+I had cleaned the whole house before we left for vacation.,en,False
+He couldn’t go to the party because he was feeling sick.,en,False
+I’m not buying anything else this month since I’ve already spent too much.,en,False
+"As soon as they receive the necessary materials, they will start the project.",en,False
+"Once she finishes her degree, she plans to travel the world.",en,False
+I was exhausted because I had been working all day.,en,False
+"Now that the rain has stopped, we can go outside.",en,False
+He will buy a new car once he saves enough money.,en,False
+"Since she doesn’t have any prior experience, she decided to take a training course.",en,False
+"If it rains tomorrow, we will stay indoors and watch movies.",en,True
+She won’t pass the exam unless she studies a lot.,en,False
+"If I won the lottery, I would travel around the world.",en,False
+He would have gone to the party if he hadn’t been so tired.,en,False
+"If I had known about the event, I would have attended.",en,False
+She will be late if she doesn’t catch the early bus.,en,False
+"If the children finish their chores, they can go to the park.",en,True
+We won’t eat a big dinner if we’re not very hungry.,en,False
+"If you eat too much junk food, you will gain weight.",en,False
+She could earn more money if she had a better job.,en,False
+"Even though he was worried, he tried to put it out of his mind.",en,False
+My sister puts on makeup whenever she goes out.,en,False
+"If you want me to make dinner, we’ll be having pasta.",en,False
+I walked to the fridge because I was hungry.,en,False
+"She went to work, even though she was tired.",en,False
+"Since you did your chores, you can go play.",en,True
+"Now that she feels better, she wants to go back to school.",en,False
+I ordered cake because I know it’s your favorite.,en,False
+"It’s raining in Seattle, whereas it’s sunny in Miami.",en,True
+"While they were on vacation, their house sitter stayed with their dog.",en,True
+She drove even though she prefers to fly.,en,True
+"After they left the movie theater, they walked to a nearby restaurant.",en,False
+Remember to brush your teeth before you go to bed!,en,False
+"When I grow up, I want to teach grammar.",en,False
+"If you like pancakes, you’ll love waffles.",en,True
+He left the light on in case she came home late.,en,False
+Please call me back even if it’s late.,en,False
+She got up to let the cat out while the rest of the family was still asleep.,en,False
+"Since the rest of the family was still asleep, she got up to let the cat out.",en,False
+"Even though the rest of the family was asleep, she got up to let the cat out.",en,False
+"Now that spring is here, it’s time to clean the house.",en,False
+It’s time to clean the house now that spring is here.,en,False
+"If you’re still hungry, have some carrots.",en,True
+Have some carrots if you’re still hungry.,en,True
+She bought herself a red dress even though she looks better in blue.,en,False
+"Even though she looks better in blue, she bought herself a red dress.",en,False
+They stayed at the beach until the sun went down.,en,False
+"Until the sun went down, they stayed at the beach.",en,False
+He called his mother because he missed her.,en,False
+"Since you’re getting paid today, let’s go out for drinks!",en,False
+The passenger stepped off the train once it had reached the station.,en,False
+I would love to travel the world after I finish with school.,en,False
+"If we let them, robots will take over the world.",en,False
+You have to do your homework whether you like it or not.,en,False
+"While he enjoys skateboarding, surfing is really his favorite.",en,True
+We’re going to have to walk unless the bus shows up soon.,en,False
+"Now that she has graduated college, she’s going to have to pay her own expenses.",en,False
+"You can call me anytime, even if it’s late.",en,False
+Financial advisors recommend having some savings in case there’s an emergency.,en,True
+"Even though books are expensive, they’re worth every penny.",en,False
+"Whenever she feels blue, she listens to her favorite song.",en,True
+People who want to get healthy should walk rather than drive.,en,False
+"Because they’re opportunistic sleepers, dogs take naps whenever they can.",en,True
+"Since finals week was around the corner, the library was very busy.",en,False
+"The whiteboard was right next to her, but she didn't feel the need to use it.",en,True
